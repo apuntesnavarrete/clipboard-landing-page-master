@@ -1,0 +1,92 @@
+:root{
+    
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    font-size: 1em;
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header{
+    background-image: url("../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    max-width: 375px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 19px 0 19px;
+}
+.header_logo{
+    width: 130px;
+    margin: 124px 0 76px 0;
+}
+.Header_title{
+    font-size: 1.8em;
+    color: var(--Dark-Grayish-Blue);
+
+}
+.header_subtitle{
+    font-size: 1em;
+    color: var(--Grayish-Blue);
+}
+.Header_content-buttons{
+    margin: 52px 0;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    width:314px ;
+    height: 62px;
+    border-radius: 30px;
+    margin: 12px;
+    border: 0px solid black;
+    font-weight: 600;
+color: white;
+box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
+}
+.button-ios{
+    background-color: var(--Strong-Cyan);
+}
+.button-mac{
+    background-color: var(--Light-Blue);
+}
+.main{
+    max-width: 375px;
+    
+}
+.footer{
+    max-width: 375px;
+}
+
+
+
+@media (min-width: 1000px) {
+    .header{
+        max-width: 100%;
+    }
+    .Header_content-buttons{
+      
+        flex-direction: row;
+    }
+
+
+  }
