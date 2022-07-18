@@ -81,6 +81,8 @@ box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
 
 @media (min-width: 1000px) {
     .header{
+        background-image: url("../images/bg-header-desktop.png");
+
         max-width: 100%;
     }
     .Header_content-buttons{
