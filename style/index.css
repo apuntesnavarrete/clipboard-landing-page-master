@@ -98,8 +98,13 @@ box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
 .content_three-options{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+}
+.content_three-options div{
+        margin-top:50px;
 }
 .main_icon-marks{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -144,7 +149,7 @@ footer{
     margin: 10px;
 }
 .icon{
-    margin: 30px;
+    margin: 40px;
 }
 
 
