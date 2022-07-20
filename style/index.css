@@ -90,7 +90,7 @@ box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
 }
 .main_img{
     width: 100%;
-    margin: 25px 0;
+    margin: 35px 0;
 }
 .main_options{
     margin: 20px 0;
@@ -104,7 +104,7 @@ box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
     flex-direction: column;
 }
 .title{
-    margin-top: 10px;
+    margin-top: 50px;
     font-size: 1.4em;
     color: var(--Dark-Grayish-Blue);
     font-weight: 600;
@@ -113,8 +113,11 @@ box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
 .subtitle{
     font-size: 0.9em;
     color: var(--Grayish-Blue);
-    margin: 28px;
+    margin: 20px;
     line-height: 1.5;
+}
+.img_device-size{
+    max-width: 350px;
 }
 footer{
     max-width: 375px;
