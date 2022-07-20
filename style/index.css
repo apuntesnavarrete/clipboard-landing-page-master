@@ -19,7 +19,6 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
 
 }
 li {
@@ -256,3 +255,10 @@ footer {
     margin: 0px 15px;
   }
 }
+@media (max-width: 900px) and (orientation: landscape) { 
+
+body{
+  align-items: center;
+
+}
+ }
