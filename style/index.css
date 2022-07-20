@@ -93,7 +93,7 @@ box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
     margin: 35px 0;
 }
 .main_options{
-    margin: 20px 0;
+    margin: 20px 0 100px 0px;
 }
 .content_three-options{
     display: flex;
@@ -130,6 +130,7 @@ footer{
     flex-direction: column;
     background-color: var(--fondo-footer);
     align-items: center;
+    margin-top: 50px;
 }
 .footer-menu{
     display: block;
