@@ -60,7 +60,7 @@ li {
   margin: 12px;
   border: 0px solid black;
   font-weight: 600;
-  color: white;
+  color: var(--fondo-footer);
   box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
 }
 .button:hover {
