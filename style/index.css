@@ -158,17 +158,34 @@ footer{
 
 
 @media (min-width: 1000px) {
+   
     .header{
         background-image: url("../images/bg-header-desktop.png");
-
+        background-size: cover;
         max-width: 100%;
+    }
+    .header_logo{
+        margin: 80px 0 30px 0;
     }
     .Header_content-buttons{
       
         flex-direction: row;
     }
+    .title{
+        font-size: 2em;
+    }
+    .Header_title{
+        font-size: 2.3em;
+        color: var(--Dark-Grayish-Blue);
+    
+    }
     .subtitle{
-        max-width: 500px;
+        max-width: 650px;
+        font-size: 1.2em;
+
+    }
+    .main-subtitle{
+        max-width: 750px;
 
     }
     .main{
@@ -178,12 +195,22 @@ footer{
         flex-direction: row;
     }
     .main_options{
-        margin: 50px 0px 0 0;
-
+        text-align: start;
+        margin: 10px 200px 10px 80px;
     }
-
+    .main_options .title{
+        font-size: 1.4rem;
+    }
+    .main_options .subtitle{
+        font-size: 1.1rem;
+        margin: 10px 0;
+    }
     .main_img{
         width: 50%;
+    }
+    .img_device-size {
+        max-width: 850px;
+        margin-top: 60px;
     }
     .content_three-options{
         display: flex;
@@ -193,6 +220,11 @@ footer{
     .main_icon-marks{
         flex-direction: row;
     }
+.icon{
+    margin: 30px 50px;
+    background-size: cover;
+
+}
     footer{
         max-width: 100%;
         flex-direction: row;
@@ -212,10 +244,16 @@ footer{
     }
     .footer-menu li{
         display: inline-block;
-        width: 150px;    }
+        width: 150px;  
+        margin: 15px 0;
+
+    }
     
     
     .footer-logo{
         margin: 50px;
+    }
+    .footer-icon img {
+        margin: 0px 15px;
     }
   }
