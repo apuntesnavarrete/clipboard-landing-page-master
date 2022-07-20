@@ -114,6 +114,7 @@ box-shadow: 1px 1px 5px 1px var(--Grayish-Blue);
     font-size: 0.9em;
     color: var(--Grayish-Blue);
     margin: 28px;
+    line-height: 1.5;
 }
 footer{
     max-width: 375px;
