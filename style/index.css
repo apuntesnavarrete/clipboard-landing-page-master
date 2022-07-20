@@ -19,6 +19,8 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
 }
 li {
   text-decoration: none;
@@ -162,6 +164,10 @@ footer {
 }
 
 @media (min-width: 1000px) {
+  body{
+    align-items: normal;
+
+  }
   .header {
     background-image: url("../images/bg-header-desktop.png");
     background-size: cover;
